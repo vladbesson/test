@@ -1,0 +1,19 @@
+
+.header__image {
+
+    margin: 0 auto 0 0;
+
+    width: 177px;
+    height: 52px;
+  
+}
+
+@media (max-width : 767px) {
+
+    .header__image {
+
+        width: 142px;
+        height: 42px;
+    }
+
+}

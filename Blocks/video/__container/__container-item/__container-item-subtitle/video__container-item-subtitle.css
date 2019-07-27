@@ -1,0 +1,36 @@
+
+
+.video__container-item-subtitle{
+
+    margin: 11px 0 0 30px;
+    padding-bottom: 30px;
+
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: normal;
+    font-style: normal;
+    
+    color: #ffffff;
+
+    z-index: 2;
+}
+
+@media (max-width: 1023px) {
+
+    .video__container-item-subtitle {
+
+        margin: 0 0 0 6%;
+        padding-bottom: 24px;
+        padding-top: 12px;
+
+    }
+}
+@media (max-width: 374px) { 
+
+    .video__container-item-subtitle {
+
+        margin-left: 16px;
+        padding-bottom: 15px;
+        
+    }
+}

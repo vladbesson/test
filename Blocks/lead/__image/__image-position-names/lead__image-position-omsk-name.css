@@ -1,0 +1,43 @@
+
+.lead__image-position-omsk-name {
+    
+    position: absolute;
+
+    top:  303px;
+    left: 714px;
+
+    width: 35px;
+    height: 8px;
+
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) { 
+
+    .lead__image-position-omsk-name {
+
+        top: 54.5%;
+        left: 72.6%;
+
+        width: 32px;
+        height: 7px;
+
+    }
+
+}
+@media (max-width : 1023px) {
+
+    .lead__image-position-omsk-name {
+
+        width: 27px;
+        height: 6px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-position-omsk-name {
+
+        width: 13px;
+        height: 3px;
+    }
+}

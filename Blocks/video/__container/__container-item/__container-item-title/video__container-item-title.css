@@ -1,0 +1,33 @@
+
+
+.video__container-item-title {
+
+    margin: 11px 0 0 30px;
+
+    width: 322px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+
+    color: #fff;
+
+    z-index: 2;
+
+}
+
+@media (max-width: 1023px) {
+
+    .video__container-item-title {
+
+        margin: 0 0 0 6%;
+        padding-top: 8px;
+
+        width: 92%;
+
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+

@@ -1,0 +1,41 @@
+.lead__image-position-glazov-name {
+    
+    position: absolute;
+
+    top:  308px;
+    left: 547px;
+
+    width: 47px;
+    height: 8px;
+
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-position-glazov-name {
+
+        top: 55%;
+        left: 55.7%;
+
+        width: 44px;
+        height: 7px;
+    }
+}
+
+@media (max-width : 1023px) {
+
+    .lead__image-position-glazov-name {
+
+        width: 36px;
+        height: 6px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-position-glazov-name {
+
+        width: 17px;
+        height: 3px;
+    }
+}

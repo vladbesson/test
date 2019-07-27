@@ -1,0 +1,18 @@
+
+.lead__image-point_position-tver{
+
+    position: absolute;
+
+    top: 279px;
+    left: 231px;
+
+    background: #4D5648;
+}
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-tver {
+
+        top: 50.3%;
+        left: 23.5%;
+    }
+}

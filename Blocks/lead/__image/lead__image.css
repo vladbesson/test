@@ -1,0 +1,58 @@
+
+@import url('./__image-background/lead__image-backgrond.css');
+@import url('./__image-point/lead__image-point.css');
+
+@import url('./__image-position-names/lead__image-position-pskov-name.css');
+@import url('./__image-position-names/lead__image-position-vel-novgorod-name.css');
+@import url('./__image-position-names/lead__image-position-tver-name.css');
+@import url('./__image-position-names/lead__image-position-yaroslavl-name.css');
+@import url('./__image-position-names/lead__image-position-manturovo-name.css');
+@import url('./__image-position-names/lead__image-position-kotelnich-name.css');
+@import url('./__image-position-names/lead__image-position-glazov-name.css');
+@import url('./__image-position-names/lead__image-position-perm-name.css');
+@import url('./__image-position-names/lead__image-position-tumen-name.css');
+@import url('./__image-position-names/lead__image-position-omsk-name.css');
+@import url('./__image-position-names/lead__image-position-krasnojrsk-name.css');
+@import url('./__image-position-names/lead__image-position-ulan-ude-name.css');
+
+.lead__image {
+
+    position: relative;
+
+    margin: 71px 0 0 0;
+    
+    width: 984px;
+    height: 555px;
+
+    background-image: url('../../../images/kalegin-michail-179870-unsplash.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image {
+        
+        width: 100%;
+    }
+
+}
+@media (max-width : 1023px) {
+
+    .lead__image {
+        width: 100%;
+        height: 420px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image {
+        
+        margin-top: 35px;
+
+        width: 100%;
+        height: 211px;
+    }
+}
+

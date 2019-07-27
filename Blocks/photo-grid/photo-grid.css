@@ -1,0 +1,74 @@
+
+@import url('./__image-position/photo-grid__image-position-one.css');
+@import url('./__image-position/photo-grid__image-position-two.css');
+@import url('./__image-position/photo-grid__image-position-three.css');
+@import url('./__image-position/photo-grid__image-position-four.css');
+@import url('./__image-position/photo-grid__image-position-five.css');
+@import url('./__image-position/photo-grid__image-position-six.css');
+@import url('./__image-position/photo-grid__image-position-seven.css');
+@import url('./__image-position/photo-grid__image-position-eight.css');
+@import url('./__image-position/photo-grid__image-position-nine.css');
+@import url('./__image-position/photo-grid__image-position-ten.css');
+@import url('./__image-position/photo-grid__image-position-eleven.css');
+@import url('./__image-position/photo-grid__image-position-twelve.css');
+
+.photo-grid {   
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 16px;        
+
+    max-width: 1185px;
+}
+
+.photo-grid_indent {
+
+    margin: 95px auto 0 auto;
+
+}
+
+@media screen and (max-width : 1279px) {
+
+    .photo-grid {
+
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 14px;          
+
+        max-width: 91%;    
+
+    }
+    .photo-grid_indent {
+        margin-top: 98px;
+    }
+}
+
+@media (max-width : 1023px) {
+
+    .photo-grid {
+
+        max-width: 94%;    
+        grid-gap: 16px;  
+    }
+    .photo-grid_indent {
+        margin-top: 95px;
+    }
+}
+@media (max-width : 767px) {
+
+    .photo-grid {
+        width: 94%;
+        grid-gap: 15px;
+    }
+    
+    .photo-grid_indent { 
+       
+        margin-top: 65px;
+    }
+}
+@media (max-width : 374px) {
+
+    .photo-grid {
+        width: 90.7%;
+        grid-gap: 8px;
+    }
+}

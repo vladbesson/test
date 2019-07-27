@@ -1,0 +1,43 @@
+
+.lead__image-position-tver-name {
+    
+    position: absolute;
+
+    top:  279px;
+    left: 187px;
+
+    width: 37px;
+    height: 8px;
+   
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) { 
+
+    .lead__image-position-tver-name {
+
+        top: 50%;
+        left: 19%;
+
+        width: 35px;
+        height: 7px;
+
+    }
+
+}
+@media (max-width : 1023px) {
+
+    .lead__image-position-tver-name {
+
+        width: 29px;
+        height: 6px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-position-tver-name {
+
+        width: 14px;
+        height: 3px;
+    }
+}

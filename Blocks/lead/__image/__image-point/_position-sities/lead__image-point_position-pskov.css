@@ -1,0 +1,19 @@
+
+.lead__image-point_position-pskov {
+
+    position: absolute;
+
+    top: 238px;
+    left: 37px;
+    
+    background: #131313;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-pskov {
+        
+        top: 42.8%;
+        left: 3.7%;
+    }
+}

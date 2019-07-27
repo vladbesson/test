@@ -1,0 +1,47 @@
+
+@import url('./_one/places__place-paragraph_one.css');
+@import url('./_two/places__place-paragraph_two.css');
+
+.places__place-paragraph {
+
+    margin-top: 50px;
+
+    max-width: 49%;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px; 
+
+    color: #fff;
+}
+
+@media screen and (max-width: 1279px) {
+
+    .places__place-paragraph {
+
+        margin-top: 42px;
+
+    }
+}
+
+@media (max-width : 1023px) {
+
+    .places__place-paragraph {
+        margin-top: 40px;
+
+        max-width: 49%;
+
+        font-size: 16px;
+        line-height: 27px; 
+    }
+}
+@media (max-width : 767px) {
+
+    .places__place-paragraph {
+         
+        margin: 21px auto 0 auto;
+        max-width: 92%;
+        
+        }
+}

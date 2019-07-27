@@ -1,0 +1,27 @@
+
+
+.comments__container-comment-author {
+
+    margin: 13px auto 0 0;
+
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #ffffff;
+
+}
+
+@media (max-width : 1023px) {
+
+    .comments__container-comment-author {
+
+        margin: 0;
+        padding-top: 15px;
+
+        text-align: center;
+
+        order: 1;
+        
+    }
+}

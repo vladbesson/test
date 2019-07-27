@@ -1,0 +1,19 @@
+
+
+.places__place-website-link {
+
+    margin-bottom: 3px;
+
+    
+    letter-spacing: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid #ffffff;
+
+    color: #fff;
+}

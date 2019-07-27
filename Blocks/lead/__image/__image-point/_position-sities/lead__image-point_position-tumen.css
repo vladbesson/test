@@ -1,0 +1,19 @@
+
+.lead__image-point_position-tumen {
+    
+    position: absolute;
+
+    top: 295px;
+    left: 621px;
+    
+    background: #414847;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-tumen {
+
+        top: 53%;
+        left: 63.4%;
+    }
+}

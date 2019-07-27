@@ -1,0 +1,54 @@
+@import url('./__image/header__image.css');
+@import url('./__lang/header__lang.css');
+
+
+.header {
+    
+    display: flex;
+    
+    width: 82%;
+
+    font-family: "Inter";
+}
+
+.header_indent {
+
+    margin: 30px auto 0 auto;
+
+}
+
+@media screen and (max-width : 1279px) {
+
+    .header {
+        width: 90.5%;
+    }
+
+}
+
+@media (max-width : 1023px) {
+
+    .header {
+        width: 94%;
+    }
+
+}
+
+@media (max-width : 767px) {
+
+    .header {
+        width: 91%;
+    }
+    .header_indent {
+
+        margin-top: 16px;
+    }
+
+}
+
+@media screen and (max-width : 374px) {
+
+    .header {
+        width: 90%;
+    }
+
+}

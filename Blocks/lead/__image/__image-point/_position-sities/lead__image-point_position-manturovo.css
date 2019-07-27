@@ -1,0 +1,21 @@
+
+.lead__image-point_position-manturovo {
+    
+    position: absolute;
+
+    top: 250px;
+    left: 352px;
+
+    background: #93A47C;
+
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-manturovo {
+
+        top: 45%;
+        left: 36%;
+    }
+
+}

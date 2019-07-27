@@ -1,0 +1,42 @@
+.lead__image-position-perm-name {
+    
+    position: absolute;
+
+    top:  243px;
+    left: 549px;
+
+    width: 40px;
+    height: 8px;
+
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) { 
+
+    .lead__image-position-perm-name {
+
+        top: 43.7%;
+        left: 56%;
+
+        width: 38px;
+        height: 7px;
+
+    }
+
+}
+@media (max-width : 1023px) {
+
+    .lead__image-position-perm-name {
+
+        width: 31px;
+        height: 6px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-position-perm-name {
+
+        width: 15px;
+        height: 3px;
+    }
+}

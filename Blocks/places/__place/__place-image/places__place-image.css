@@ -1,0 +1,36 @@
+
+.places__place-image {
+   
+    margin-top: 53px;
+
+    width: 46.5%;
+}
+
+@media screen and (max-width: 1279px) {
+
+    .places__place-image {
+
+        margin-top: 47px;
+
+        width: 47%;
+        height: 100%;
+
+    }
+}
+@media (max-width : 767px) {
+
+    .places__place-image {
+
+        margin-top: 35px;
+
+        width: 100%;
+        height: 375px;
+    }
+}
+
+@media (max-width : 374px) {
+
+    .places__place-image {
+        height: 320px;
+    }
+}

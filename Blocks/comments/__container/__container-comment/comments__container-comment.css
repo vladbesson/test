@@ -1,0 +1,51 @@
+
+@import url('./__container-comment-image/comments__container-comment-image.css');
+@import url('./__container-comment-quote/comments__container-comment-quote.css');
+@import url('./__container-comment-author/comments__container-comment-author.css');
+
+.comments__container-comment {
+
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 32%;
+}
+
+@media (max-width : 1023px) {
+
+    .comments__container-comment {
+        
+        margin-top: 75px;
+
+        align-items: center;
+
+        width: 58%;
+        
+    }
+    .comments__container-comment:first-child {
+
+        margin: 3px;
+    }
+}
+@media (max-width : 767px) {
+
+    .comments__container-comment {
+
+        margin-top: 49px;
+        width: 100%;
+    }
+
+    .comments__container-comment:last-child {
+        margin-top: 82px;
+    }
+}
+@media (max-width : 374px) {
+
+    .comments__container-comment:last-child {
+        margin-top: 51px;
+    }
+}
+

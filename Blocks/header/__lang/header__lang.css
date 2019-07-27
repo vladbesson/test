@@ -1,0 +1,39 @@
+@import url('./_choice/header__lang_choice.css');
+
+.header__lang {
+   
+    margin: 19px 0 auto 18px;
+    padding-bottom: 2px;
+
+    width: 30px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+
+    color: #ffffff;;
+}
+@media (max-width : 767px) {
+
+    .header__lang {
+
+        margin-left: 22px;
+        width: auto;
+
+        font-size: 18px;
+        line-height: 17px;
+    }
+}
+
+@media (max-width : 374px) {
+
+    .header__lang {
+
+       
+
+        font-size: 1.125rem;
+        line-height: 1.1;
+    }
+
+}

@@ -1,0 +1,31 @@
+
+@import url('./__container-item/video__container-item.css');
+
+.video__container {
+
+    margin-top: 68px; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%; 
+   
+}
+
+@media (max-width: 1023px) {
+
+    .video__container {
+
+        margin-top: 48px;
+       
+    }
+}
+@media (max-width : 767px) {
+
+    .video__container {
+
+        margin-top: 21px;
+        flex-direction: column;
+    }
+}

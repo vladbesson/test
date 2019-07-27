@@ -1,0 +1,38 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/norm.css");
+@import url("../Blocks/header/header.css");
+@import url("../Blocks/lead/lead.css");
+@import url("../Blocks/intro/intro.css");
+@import url("../Blocks/photo-grid/photo-grid.css");
+@import url("../Blocks/places/places.css");
+@import url("../Blocks/video/video.css");
+@import url("../Blocks/additional/additional.css");
+@import url("../Blocks/comments/comments.css");
+@import url("../Blocks/cover/cover.css");
+@import url("../Blocks/emblem/emblem.css");
+@import url("../Blocks/barentsburg/barentsburg.css");
+@import url("../Blocks/footer/footer.css");
+
+@import url("https://rsms.me/inter/inter.css"); /*-- добавил шрифт странице --*/
+
+body {
+  background-color: #2a2c2f;
+}
+
+.page {
+  margin: 0 auto;
+
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 1439px) {
+  .page {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}

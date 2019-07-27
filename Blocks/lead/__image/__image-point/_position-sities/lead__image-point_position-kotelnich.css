@@ -1,0 +1,19 @@
+
+.lead__image-point_position-kotelnich {
+
+    position: absolute;
+
+    top: 284px;
+    left: 429px;
+    
+    background: #738F8C;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-kotelnich {
+
+        top: 51.2%;
+        left: 43.4%;
+    }
+}

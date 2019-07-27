@@ -1,0 +1,46 @@
+
+@import url('./__content-row-main-text/intro__content-row-main-text.css');
+
+.intro__content-row {
+
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 13px;
+
+    display: flex;
+
+    width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+
+   .intro__content-row {
+       margin-bottom: 0;
+
+    padding-bottom: 20px;
+    }
+}
+@media (max-width : 1023px) {
+
+    .intro__content-row {
+
+        padding-bottom: 25px;
+    }
+}
+@media (max-width : 767px) {
+
+    .intro__content-row { 
+
+        padding-bottom: 5px;
+        font-size: 16px;
+        line-height: 27px;
+
+    }
+}
+@media (max-width : 374px) {
+
+    .intro__content-row {
+        padding-top: 37px;
+        padding-bottom: 10px;
+    }
+}

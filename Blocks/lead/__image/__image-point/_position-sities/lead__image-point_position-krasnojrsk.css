@@ -1,0 +1,20 @@
+
+.lead__image-point_position-krasnojrsk {
+    
+    position: absolute;
+
+    top: 236px;
+    left: 862px;
+    
+    background: #3E403A;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-krasnojrsk {
+
+        top: 42.4%;
+        left: 88.5%;
+
+    }
+}

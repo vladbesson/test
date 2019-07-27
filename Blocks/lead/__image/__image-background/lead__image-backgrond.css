@@ -1,0 +1,50 @@
+
+
+.lead__image-background {
+    
+    position: absolute;
+
+    margin: 159px 57px 202px 42px;
+    
+    width: 886px;
+    height: 193px;
+
+    background-image: url('../../../../images/Vector.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    z-index: 2;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-background {
+
+        margin-left: 4%;
+              
+        width: 91%;  
+            
+    }
+
+}
+
+@media (max-width : 1023px) {
+
+    .lead__image-background {
+
+        margin-top: 120px;
+
+        height: 146px;
+
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-background {
+
+        margin-top: 61px;
+
+        height: 73px;
+
+    }
+}

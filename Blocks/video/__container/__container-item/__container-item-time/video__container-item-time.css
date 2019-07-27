@@ -1,0 +1,38 @@
+
+
+.video__container-item-time {
+
+    margin: 97px 0 0 30px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    
+    color: #fff;
+
+    z-index: 2;
+
+}
+
+@media screen and (max-width: 1279px) {
+
+    .video__container-item-time {
+        margin-top: 58px;
+    }
+}
+@media (max-width: 1023px) {
+
+    .video__container-item-time {
+
+        margin: 0 0 0 6%;
+    }
+}
+@media (max-width: 374px) {
+
+    .video__container-item-time {
+
+        margin-left: 16px;
+    }
+}

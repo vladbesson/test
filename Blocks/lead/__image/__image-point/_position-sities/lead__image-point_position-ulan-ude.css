@@ -1,0 +1,20 @@
+
+.lead__image-point_position-ulan-ude {
+
+    position: absolute;
+
+    top: 263px;
+    left: 925px;
+
+    background-color: #181A19;
+    
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-ulan-ude {
+
+        top: 47.3%;
+        left: 94.7%;
+    }
+}

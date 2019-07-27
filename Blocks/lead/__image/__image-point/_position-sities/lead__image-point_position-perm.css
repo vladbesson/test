@@ -1,0 +1,20 @@
+
+.lead__image-point_position-perm {
+    
+    position: absolute;
+
+    top: 256px;
+    left: 565px;
+    
+    background: #8CBABB;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-point_position-perm {
+
+        top: 46.1%;
+        left: 57.6%;
+
+    }
+}

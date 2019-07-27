@@ -1,0 +1,39 @@
+
+
+
+.footer__name {
+
+    position: absolute;
+
+    margin: 0;
+
+    bottom: 56px;
+    right: 0;
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+
+    color: #ffffff;
+}
+
+@media (max-width : 1023px) {
+
+    .footer__name {
+        bottom: 137px;
+        right: 0;
+    }
+
+}
+@media (max-width : 767px) {
+
+    .footer__name {
+        
+        position: static;
+
+        padding-top: 35px;
+
+    }
+}

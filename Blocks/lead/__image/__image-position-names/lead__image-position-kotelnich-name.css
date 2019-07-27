@@ -1,0 +1,40 @@
+
+.lead__image-position-kotelnich-name {
+    position: absolute;
+
+    top:  269px;
+    left: 415px;
+
+    width: 84px;
+    height: 8px;
+
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) {
+
+    .lead__image-position-kotelnich-name {
+
+        top: 48.4%;
+        left: 42.2%;
+
+        width: 80px;
+        height: 7px;
+    }
+}
+@media (max-width : 1023px) {
+
+    .lead__image-position-kotelnich-name {
+
+        width: 65px;
+        height: 6px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-position-kotelnich-name {
+
+        width: 32px;
+        height: 3px;
+    }
+}

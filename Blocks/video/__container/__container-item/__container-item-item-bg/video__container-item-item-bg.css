@@ -1,0 +1,19 @@
+
+@import url('./video__container-item-item-bg-image/video__container-item-item-bg-image.css');
+
+.video__container-item-item-bg {
+
+    margin: auto;
+
+    position: absolute;
+
+    top:0;
+    left: 0;
+
+    background-color: #000000;
+    border-radius: 5px;
+
+    width: 100%;
+    height: 100%
+
+}

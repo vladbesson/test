@@ -1,0 +1,43 @@
+
+.lead__image-position-manturovo-name {
+    
+    position: absolute;
+
+    top:  241px;
+    left: 363px;
+
+    width: 75px;
+    height: 8px;
+
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) { 
+
+    .lead__image-position-manturovo-name {
+
+        top: 43.3%;
+        left: 36.9%;
+
+        width: 71px;
+        height: 7px;
+
+    }
+
+}
+@media (max-width : 1023px) {
+
+    .lead__image-position-manturovo-name {
+
+        width: 59px;
+        height: 6px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-position-manturovo-name {
+
+        width: 28px;
+        height: 3px;
+    }
+}

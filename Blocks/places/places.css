@@ -1,0 +1,57 @@
+
+@import url('./__place/places__place.css');
+
+
+.places {
+    
+    display: flex;
+    flex-direction: column;
+
+    max-width: 985px;   
+
+    font-family: 'inter';
+
+}
+
+.places_indent {
+
+    margin: 97px auto 0 auto;
+
+}
+
+@media screen and (max-width: 1279px) {
+
+    .places {
+        max-width: 91%;
+    }
+    .places_indent {
+
+        margin: 95px auto 0 auto;
+    }
+
+}
+@media (max-width : 1023px) {
+
+    .places {
+
+        max-width: 94%;
+    }
+}
+@media (max-width : 767px) {
+
+    .places {
+
+        max-width: 100%;
+    }
+    .places_indent {
+
+        margin-top: 51px;
+    }
+}
+
+@media (max-width : 374px) {
+
+    .places_indent {
+        margin-top: 55px;
+    }
+}

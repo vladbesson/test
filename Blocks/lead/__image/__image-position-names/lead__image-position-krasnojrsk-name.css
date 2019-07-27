@@ -1,0 +1,43 @@
+
+.lead__image-position-krasnojrsk-name {
+    
+    position: absolute;
+
+    top:  224px;
+    left: 824px;
+
+    width: 81px;
+    height: 8px;
+
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) { 
+
+    .lead__image-position-krasnojrsk-name {
+
+        top: 40.3%;
+        left: 84.5%;
+
+        width: 76px;
+        height: 7px;
+
+}
+
+}
+@media (max-width : 1023px) {
+
+    .lead__image-position-krasnojrsk-name {
+
+        width: 63px;
+        height: 6px;
+    }
+}
+@media (max-width : 767px) {
+
+    .lead__image-position-krasnojrsk-name {
+
+        width: 30px;
+        height: 3px;
+    }
+}

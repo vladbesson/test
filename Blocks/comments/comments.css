@@ -1,0 +1,59 @@
+
+@import url('./__container/comments__container.css');
+@import url('./__title/comments__title.css');
+@import url('./__subtitle/comments__subtitle.css');
+
+.comments {    
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1184px;
+
+    font-family: 'inter';
+
+}
+
+.comments_indent {
+
+    margin: 110px auto 0 auto;
+
+}
+
+@media screen and (max-width: 1279px) {
+
+    .comments {
+
+        width: 92%;
+
+    }
+    .comments_indent {
+
+        margin-top: 113px;
+    }
+}
+@media (max-width : 1023px) {
+
+    .comments {
+        width: 86%;
+    }
+    .comments_indent {
+        
+        margin-top: 104px;
+    }
+}
+@media (max-width : 767px) {
+
+    .comments {
+        width: 94%;
+    }
+    .comments_indent {
+        margin-top: 60px;
+    }
+}
+@media (max-width : 374px) {
+
+    .comments_indent {
+        margin-top: 65px;
+    }
+}

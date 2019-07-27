@@ -1,0 +1,44 @@
+
+.lead__image-position-ulan-ude-name {
+
+    position: absolute;
+
+    top:  281px;
+    left: 898px;
+
+    width: 63px;
+    height: 9px;
+
+    z-index: 4;
+}
+
+@media screen and (max-width : 1279px) { 
+
+    .lead__image-position-ulan-ude-name {
+
+        top: 50.5%;
+        left: 91.9%;
+
+        width: 59px;
+        height: 9px;
+
+    }
+
+}
+@media (max-width : 1023px) {
+
+    .lead__image-position-ulan-ude-name {
+
+        width: 49px;
+        height: 6px;
+    }
+}
+
+@media (max-width : 767px) {
+
+    .lead__image-position-ulan-ude-name {
+
+        width: 23px;
+        height: 3px;
+    }
+}
