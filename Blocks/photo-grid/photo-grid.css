@@ -1,16 +1,16 @@
 
-@import url('./__image-position/photo-grid__image-position-one.css');
-@import url('./__image-position/photo-grid__image-position-two.css');
-@import url('./__image-position/photo-grid__image-position-three.css');
-@import url('./__image-position/photo-grid__image-position-four.css');
-@import url('./__image-position/photo-grid__image-position-five.css');
-@import url('./__image-position/photo-grid__image-position-six.css');
-@import url('./__image-position/photo-grid__image-position-seven.css');
-@import url('./__image-position/photo-grid__image-position-eight.css');
-@import url('./__image-position/photo-grid__image-position-nine.css');
-@import url('./__image-position/photo-grid__image-position-ten.css');
-@import url('./__image-position/photo-grid__image-position-eleven.css');
-@import url('./__image-position/photo-grid__image-position-twelve.css');
+@import url('./image-position/photo-grid__image-position-one.css');
+@import url('./image-position/photo-grid__image-position-two.css');
+@import url('./image-position/photo-grid__image-position-three.css');
+@import url('./image-position/photo-grid__image-position-four.css');
+@import url('./image-position/photo-grid__image-position-five.css');
+@import url('./image-position/photo-grid__image-position-six.css');
+@import url('./image-position/photo-grid__image-position-seven.css');
+@import url('./image-position/photo-grid__image-position-eight.css');
+@import url('./image-position/photo-grid__image-position-nine.css');
+@import url('./image-position/photo-grid__image-position-ten.css');
+@import url('./image-position/photo-grid__image-position-eleven.css');
+@import url('./image-position/photo-grid__image-position-twelve.css');
 
 .photo-grid {   
 

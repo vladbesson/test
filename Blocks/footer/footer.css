@@ -1,6 +1,6 @@
 
-@import url('./__link/footer__link.css');
-@import url('./__name/footer__name.css');
+@import url('./link/footer__link.css');
+@import url('./name/footer__name.css');
 
 .footer {
 

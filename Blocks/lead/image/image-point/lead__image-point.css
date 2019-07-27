@@ -1,0 +1,35 @@
+
+@import url('./position-sities/lead__image-point_position-pskov.css');
+@import url('./position-sities/lead__image-point_position-velnovgorod.css');
+@import url('./position-sities/lead__image-point_position-tver.css');
+@import url('./position-sities/lead__image-point_position-yaroslavl.css');
+@import url('./position-sities/lead__image-point_position-manturovo.css');
+@import url('./position-sities/lead__image-point_position-kotelnich.css');
+@import url('./position-sities/lead__image-point_position-glazov.css');
+@import url('./position-sities/lead__image-point_position-perm.css');
+@import url('./position-sities/lead__image-point_position-tumen.css');
+@import url('./position-sities/lead__image-point_position-omsk.css');
+@import url('./position-sities/lead__image-point_position-krasnojrsk.css');
+@import url('./position-sities/lead__image-point_position-ulan-ude.css');
+
+.lead__image-point {
+    
+
+    height: 5px;
+    width: 5px;
+
+    border: 1px solid white;
+    border-radius: 50%;
+
+    z-index: 3;
+    
+}
+
+@media (max-width : 767px) {
+
+    .lead__image-point {
+
+        height: 2px;
+        width: 2px;
+    }
+}

@@ -1,6 +1,6 @@
 
-@import url('./_one/places__place-paragraph_one.css');
-@import url('./_two/places__place-paragraph_two.css');
+@import url('./one/places__place-paragraph_one.css');
+@import url('./two/places__place-paragraph_two.css');
 
 .places__place-paragraph {
 

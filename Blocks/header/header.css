@@ -1,5 +1,5 @@
-@import url('./__image/header__image.css');
-@import url('./__lang/header__lang.css');
+@import url('./image/header__image.css');
+@import url('./lang/header__lang.css');
 
 
 .header {
